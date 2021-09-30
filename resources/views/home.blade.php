@@ -9,7 +9,12 @@
 </head>
 
 <body>
-    <h1>Hello world</h1>
+    <h1>To do list:</h1>
+    <ul>
+        @foreach($to_do_list as $item_list)
+        <li>{{$item_list}}</li>
+        @endforeach
+    </ul>
 
 </body>
 

@@ -14,5 +14,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    $data = [
+        'to_do_list' => [
+            'Fare il bucato',
+            'Fare la spesa',
+            'Comprare il pane'
+        ]
+    ];
+    return view('home', $data);
 })->name('home');
