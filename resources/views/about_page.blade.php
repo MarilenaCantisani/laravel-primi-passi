@@ -25,7 +25,6 @@
             Minima quam iste soluta magnam, voluptates necessitatibus molestiae dolores molestias, expedita itaque eaque nisi voluptatem animi vel ducimus modi non excepturi. Quae, reiciendis esse. Pariatur excepturi culpa harum vel tempore.
             Quod nisi dolorum quidem voluptates molestiae nobis aliquam ipsam sed quisquam ipsum suscipit voluptatum, quibusdam eaque reprehenderit dignissimos? Veritatis dolores rem maxime culpa neque ex nisi officia sapiente dicta alias.
         </p>
-
     </main>
     {{-- FOOTER --}}
     <footer>

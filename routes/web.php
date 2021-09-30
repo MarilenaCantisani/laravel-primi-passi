@@ -16,14 +16,9 @@ use Illuminate\Support\Facades\Route;
 //// Route of home page and related data 
 Route::get('/', function () {
     $data = [
-        'to_do_list' => [
-            'Fare il bucato',
-            'Fare la spesa',
-            'Comprare il pane'
-        ],
         'nav_bar' => [
             'home' => 'Home',
-            'who_we_are' => 'Chi siamo',
+            'about_page' => 'Chi siamo',
             'products' => 'I nostri prodotti',
             'contacts' => 'I nostri contatti'
         ]
@@ -33,8 +28,8 @@ Route::get('/', function () {
 
 //// Route of the page 'who we are'
 Route::get('/chi_siamo', function () {
-    return view('who_we_are');
-})->name('who_we_are');
+    return view('about_page');
+})->name('about_page');
 
 //// Route of the page 'products'
 Route::get('/i_nostri_prodotti', function () {
